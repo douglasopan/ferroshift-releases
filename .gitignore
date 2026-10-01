@@ -1,0 +1,28 @@
+# Binary files belong in GitHub Releases, not the Git history.
+*.zip
+*.exe
+*.dll
+*.apk
+*.aab
+*.pck
+*.AppImage
+*.tar
+*.tar.gz
+*.7z
+
+# Local build, game, account and signing data never belongs here.
+build/
+output/
+tmp/
+.env*
+*.keystore
+*.jks
+*.pem
+*.key
+*.dpapi
+*.pfx
+*.p12
+*.save
+*.log
+session*
+credentials*
